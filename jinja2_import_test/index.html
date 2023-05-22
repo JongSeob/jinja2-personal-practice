@@ -1,0 +1,12 @@
+<!-- index.html -->
+{% import "./macros/macros.html" as macros %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Using Jinja2 Macros</title>
+  </head>
+  <body>
+    {{ macros.greet("Alice") }} {{ macros.greet("Bob") }}
+  </body>
+</html>
